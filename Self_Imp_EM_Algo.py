@@ -5,15 +5,15 @@ Created on Thu Mar 26 10:37:42 2020
 @author: ivan.sheng
 
 Description: Self-Implemented Expectation-Maximization algorithm for a generic
-            number of clusters (minimum of 3).
+            number of clusters (minimum of 2).
 """
 
 import numpy as np
 import copy 
 
 #initialize matrix and k
-x = np.array([[1,2],[4,2],[1,3],[4,3]])
-k = 2
+x = np.array([[1,2],[4,2],[1,3],[4,3]]) #replace with dataset
+k = 2 #adjust k-clusters
 
 n,d = x.shape
 iterations = 1
